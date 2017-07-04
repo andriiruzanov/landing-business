@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Numerous always-ignore extensions
 *.bak
 *.diff
@@ -37,3 +38,30 @@ build
 # Node.JS
 node_modules
 npm-debug.log
+=======
+.idea/
+build
+node_modules
+npm-debug.log
+.DS_Store
+### Windows template
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+>>>>>>> 2d56f4690df8507aeeb68bacff69ced353e874e7
