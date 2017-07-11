@@ -1,11 +1,14 @@
 mixin header()
-	+b.HEADER.header ddffdfdf
+	+b.HEADER.header ppppp
 		+e.top
 			+e.container
-				+e.contacts
-					+b.A.contact(href="tel:+380666446325")
-						I.fa.fa-mobile(aria-hidden="true")
+				+b.contacts
+					+e.A.contact(href="tel:+380666446325")
+						+e.I.icon.fa.fa-address-card(aria-hidden="true")
 						+e.SPAN.text 0992706589
-
+					+e.A.contact(href="@mailto:info@business.co")
+						+e.I.icon--email.fa.fa-envelope(aria-hidden="true")
+					+e.facebook-icon(href="facebook.com")
+						+e.icon.fa.fa-facebook(aria-hidden="true")
 
 		+e.bottom
